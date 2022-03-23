@@ -8,11 +8,11 @@
 #Ejercicio 1
 def lista_split(num):
     if (isinstance(num, int)):
-        return lista_split_aux(num, [], [])
+        return lista_split_auxiliar(num, [], [])
     else:
         print("Debe digitar un número entero")
 
-def lista_split_aux(num, lista_0_4, lista_0_5):
+def lista_split_auxiliar(num, lista_0_4, lista_0_5):
     lista_0_4.sort()
     lista_0_5.sort()
     if (num==0):

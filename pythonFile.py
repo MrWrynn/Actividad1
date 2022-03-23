@@ -2,6 +2,9 @@
 #Cristopher Eduardo Moreira Quirós | Carné:2021055902
 #Jose Eduardo Cruz Vargas | Carné:2021050675
 
+
+#Modificacion Cristopher Moreira Quirós
+
 #Ejercicio 1
 def lista_split(num):
     if (isinstance(num, int)):

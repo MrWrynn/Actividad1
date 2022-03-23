@@ -10,7 +10,7 @@ def lista_split(num):
     if (isinstance(num, int)):
         return lista_split_aux(num, [], [])
     else:
-        print("El numero deber ser entero")
+        print("Debe digitar un número entero")
 
 def lista_split_aux(num, lista_0_4, lista_0_5):
     lista_0_4.sort()
@@ -28,7 +28,7 @@ def lista_split_aux(num, lista_0_4, lista_0_5):
         return lista_split_aux(num//10, lista_0_4, lista_0_5)
 
 
-print(lista_split(1023456789))
+print(lista_split(10289))
 
 #Ejercicio 2
 def splitColaAux(lista,result):

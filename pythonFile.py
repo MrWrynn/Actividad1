@@ -42,7 +42,7 @@ def splitColaAux(lista,result):
 def splitCola(lista):
     if isinstance(lista,list):
         print(splitColaAux(lista,[]))
-    else: print("error")
+    else: print("Hubo un error")
 splitCola( [2,0,46,78,9,0,87,65])
 
 
@@ -53,7 +53,7 @@ def cambie_todos(num):
         rep=crear_lista(num, [])
         return cambie_todos_aux(num,0,rep,0)
     else:
-        return "Error"
+        return "Hubo un error"
 
 def crear_lista(num, lista):
     if num==0:
@@ -106,9 +106,9 @@ def coincideColaAux(lista,result):
 def coincideCola(lista):
     if isinstance(lista,list):
         if coincideColaAux(lista,0) > 0:
-            print("coincide")
-        else: print("no coincide")
-    else: print("error")
+            print("Coincide")
+        else: print("No coincide")
+    else: print("Hubo un error")
 coincideCola([2,4,3,9,14])
 
 
@@ -149,5 +149,5 @@ def SumatoriaAux(maxValue,n,result):
 def SumatoriaCola(MaxValue):
     if isinstance(MaxValue,int) and MaxValue>0:
         print(SumatoriaAux(MaxValue,1,0))
-    else: print("error")
+    else: print("Hubo un error")
 SumatoriaCola(8)
